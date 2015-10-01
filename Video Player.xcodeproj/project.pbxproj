@@ -14,6 +14,10 @@
 		73607F851BBC2CF5001DBF56 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 73607F831BBC2CF5001DBF56 /* LaunchScreen.storyboard */; };
 		73607F901BBC2CF5001DBF56 /* Video_PlayerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73607F8F1BBC2CF5001DBF56 /* Video_PlayerTests.swift */; };
 		73607F9B1BBC2CF5001DBF56 /* Video_PlayerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73607F9A1BBC2CF5001DBF56 /* Video_PlayerUITests.swift */; };
+		73607FA91BBC2D60001DBF56 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73607FA81BBC2D60001DBF56 /* MediaPlayer.framework */; };
+		73607FB01BBC3087001DBF56 /* IMG_7498.mov in Resources */ = {isa = PBXBuildFile; fileRef = 73607FAF1BBC3087001DBF56 /* IMG_7498.mov */; settings = {ASSET_TAGS = (); }; };
+		73607FB11BBC3087001DBF56 /* IMG_7498.mov in Resources */ = {isa = PBXBuildFile; fileRef = 73607FAF1BBC3087001DBF56 /* IMG_7498.mov */; settings = {ASSET_TAGS = (); }; };
+		73607FB21BBC3087001DBF56 /* IMG_7498.mov in Resources */ = {isa = PBXBuildFile; fileRef = 73607FAF1BBC3087001DBF56 /* IMG_7498.mov */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +51,8 @@
 		73607F961BBC2CF5001DBF56 /* Video PlayerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Video PlayerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		73607F9A1BBC2CF5001DBF56 /* Video_PlayerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Video_PlayerUITests.swift; sourceTree = "<group>"; };
 		73607F9C1BBC2CF5001DBF56 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		73607FA81BBC2D60001DBF56 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		73607FAF1BBC3087001DBF56 /* IMG_7498.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = IMG_7498.mov; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				73607FA91BBC2D60001DBF56 /* MediaPlayer.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,6 +84,7 @@
 		73607F6E1BBC2CF5001DBF56 = {
 			isa = PBXGroup;
 			children = (
+				73607FA81BBC2D60001DBF56 /* MediaPlayer.framework */,
 				73607F791BBC2CF5001DBF56 /* Video Player */,
 				73607F8E1BBC2CF5001DBF56 /* Video PlayerTests */,
 				73607F991BBC2CF5001DBF56 /* Video PlayerUITests */,
@@ -97,6 +105,7 @@
 		73607F791BBC2CF5001DBF56 /* Video Player */ = {
 			isa = PBXGroup;
 			children = (
+				73607FAA1BBC2E0F001DBF56 /* Video Files */,
 				73607F7A1BBC2CF5001DBF56 /* AppDelegate.swift */,
 				73607F7C1BBC2CF5001DBF56 /* ViewController.swift */,
 				73607F7E1BBC2CF5001DBF56 /* Main.storyboard */,
@@ -123,6 +132,14 @@
 				73607F9C1BBC2CF5001DBF56 /* Info.plist */,
 			);
 			path = "Video PlayerUITests";
+			sourceTree = "<group>";
+		};
+		73607FAA1BBC2E0F001DBF56 /* Video Files */ = {
+			isa = PBXGroup;
+			children = (
+				73607FAF1BBC3087001DBF56 /* IMG_7498.mov */,
+			);
+			name = "Video Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -228,6 +245,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				73607FB01BBC3087001DBF56 /* IMG_7498.mov in Resources */,
 				73607F851BBC2CF5001DBF56 /* LaunchScreen.storyboard in Resources */,
 				73607F821BBC2CF5001DBF56 /* Assets.xcassets in Resources */,
 				73607F801BBC2CF5001DBF56 /* Main.storyboard in Resources */,
@@ -238,6 +256,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				73607FB11BBC3087001DBF56 /* IMG_7498.mov in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -245,6 +264,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				73607FB21BBC3087001DBF56 /* IMG_7498.mov in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
